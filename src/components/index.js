@@ -10,8 +10,8 @@ const Site = () => (
       href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap"
       rel="stylesheet"
     />
-    <div className="diamond-container">
-      <div id="cut-diamond"></div>
+    <div className="gem-container">
+      {/* <div id="cut-gem"></div> */}
       {/* <?xml version="1.0" encoding="UTF-8"?> */}
       <svg
         width="360px"
@@ -22,7 +22,7 @@ const Site = () => (
         xlink="http://www.w3.org/1999/xlink"
       >
         {/* <!-- Generator: Sketch 61 (89581) - https://sketch.com --> */}
-        <title>necklace-gem</title>
+        <title>gem</title>
         <desc>Created with Sketch.</desc>
         <g
           id="Page-1"
@@ -77,7 +77,9 @@ const Site = () => (
           </g>
         </g>
       </svg>
-      <div id="diamond-pulse"></div>
+      <div id="bolt-container">
+        <div id="bolt"></div>
+      </div>
     </div>
     <div className="name-container">
       <div className="first-name">TREVOR</div>
