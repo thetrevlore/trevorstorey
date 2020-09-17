@@ -1,3 +1,8 @@
+/* @font-face {
+  font-family: Lora-Regular;
+  src: url('../fonts/Lora-Regular.ttf');
+} */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -29,9 +34,10 @@ svg {
 .name-container {
   height: 100%;
   display: flex;
-  font-size: 23vh;
+  font-size: 22vh;
   color: rgb(64, 224, 171);
-  font-family: 'Playfair Display';
+  font-family: 'Cormorant Garamond';
+  font-weight: 500;
   justify-content: center;
   position: relative;
   transition: all 0.2s ease-in-out;
@@ -47,6 +53,7 @@ svg {
   writing-mode: vertical-lr;
   text-align: center;
   transition: all 0.2s ease-in-out;
+  margin-left: -20px;
 }
 
 .pipe {

@@ -6,10 +6,18 @@ const Site = () => (
   <main>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
-    <link
+    {/* <link
       href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap"
       rel="stylesheet"
-    />
+    /> */}
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    ></link>
+    {/* <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap"
+      rel="stylesheet"
+    ></link> */}
     <div className="gem-container">
       {/* <div id="cut-gem"></div> */}
       {/* <?xml version="1.0" encoding="UTF-8"?> */}
