@@ -34,7 +34,7 @@ svg {
 .name-container {
   height: 100%;
   display: flex;
-  font-size: 22vh;
+  font-size: 23vh;
   color: rgb(64, 224, 171);
   font-family: 'Cormorant Garamond';
   font-weight: 500;
@@ -53,15 +53,15 @@ svg {
   writing-mode: vertical-lr;
   text-align: center;
   transition: all 0.2s ease-in-out;
-  margin-left: -20px;
+  margin-left: -2%;
+  font-size: 23.4vh;
 }
 
 .pipe {
   position: absolute;
   background-color: rgb(248, 238, 202);
   height: 100%;
-  width: 34%;
-  max-width: 145px;
+  width: 19%;
   transition: all 0.2s ease-in-out;
 }
 
