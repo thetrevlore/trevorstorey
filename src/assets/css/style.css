@@ -156,7 +156,7 @@ svg {
     transition: all 0.2s ease-in-out;
   }
   .name-container {
-    font-size: 6vh;
+    font-size: 7.5vh;
     transform: rotate(-55deg);
     margin-left: 34%;
     margin-bottom: -82.5%;
@@ -164,7 +164,7 @@ svg {
     width: 175%;
     display: grid;
     grid-template-columns: 53% 47%;
-    grid-template-rows: 8% 1fr;
+    grid-template-rows: 10.5% 1fr;
     align-self: flex-end;
   }
 
@@ -176,7 +176,7 @@ svg {
     width: 100%;
     height: fit-content;
     text-align: end;
-    padding-right: 0.2em;
+    padding-right: 0.18em;
   }
   .last-name {
     writing-mode: unset;
@@ -184,7 +184,9 @@ svg {
     grid-row: 1 / 2;
     height: fit-content;
     text-align: start;
-    padding-left: 0.2em;
+    padding-left: 0.18em;
+    font-size: 7.5vh;
+    margin-left: unset;
   }
 
   .pipe {
